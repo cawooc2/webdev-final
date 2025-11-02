@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<!-- doc info -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Librarian's Archive</title>
+<link rel="stylesheet" type="text/css" href="ITWD5.130.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+<script src="script.js"></script>
+
+<!-- head -->
+
+<head>
+<div class="cardhead"></div>
+
+<div class="cardbody">
+
+    <!-- SIDEBAR BUTTONS -->
+
+    <div class="sidebar">
+        <button class="hamburger" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-menu">
+            <form><button class="button button_home" formaction="home.html">Home</button></form>
+            <form><button class="button button_about" formaction="about.html">About</button></form>
+            <form><button class="button button_contact" formaction="contact-us.html">Contact Us</button></form>
+            <form><button class="button button_explore">Explore</button></form>
+            <input type="text" placeholder="Search...">
+        </div>
+
+        <h2>VOTE</h2>
+        <p>Who should be next month's featured author?</p>
+         <label class="poll"><p>Tony Tony Chopper</p>
+        <input type="radio" checked="checked" name="radio">
+        <span class="checkmark"></span>
+        </label>
+        <label class="poll"><p>Jinbe</p>
+        <input type="radio" name="radio">
+         <span class="checkmark"></span>
+        </label>
+        <label class="poll"><p>Nico Robin</p>
+          <input type="radio" name="radio">
+         <span class="checkmark"></span>
+        </label>
+        <label class="poll"><p>Usopp</p>
+         <input type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <form><button class="button_submit" formaction="">Submit</button></form>
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+
+    <div class="mainpage">
+        <h1>The Librarian's Archive</h1>
+        
+        <!-- Carousel 1 -->
+        <h4>Popular Today</h4>
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <button class="carousel-btn prev" data-carousel="1" type="button">‹</button>
+                <div class="carousel-images" data-carousel="1">
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/luffy.jpg" alt="Monkey D. Luffy"></a>
+                        <p class="carousel-label">Monkey D. Luffy</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/zoro.jpg" alt="Roronoa Zoro"></a>
+                        <p class="carousel-label">Roronoa Zoro</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/nami.jpg" alt="Nami"></a>
+                        <p class="carousel-label">Nami</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="author.html"><img src="media/arundhatiroy.jpg" alt="Usopp"></a>
+                        <p class="carousel-label">Arundhati Roy</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/sanji.jpg" alt="Sanji"></a>
+                        <p class="carousel-label">Sanji</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/chopper.jpeg" alt="Tony Tony Chopper"></a>
+                        <p class="carousel-label">Tony Tony Chopper</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/robin.jpg" alt="Nico Robin"></a>
+                        <p class="carousel-label">Nico Robin</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/franky.jpg" alt="Franky"></a>
+                        <p class="carousel-label">Franky</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/jinbei.jpg" alt="Jinbe"></a>
+                        <p class="carousel-label">Jinbe</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/luffy.jpg" alt="Monkey D. Luffy"></a>
+                        <p class="carousel-label">Monkey D. Luffy</p>
+                    </div>
+                </div>
+                <button class="carousel-btn next" data-carousel="1" type="button">›</button>
+            </div>
+        </div>
+
+        <!-- Carousel 2 -->
+        <h4>Recently Added</h4>
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <button class="carousel-btn prev" data-carousel="2" type="button">‹</button>
+                <div class="carousel-images" data-carousel="2">
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/chopper.jpeg" alt="Tony Tony Chopper"></a>
+                        <p class="carousel-label">Tony Tony Chopper</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/robin.jpg" alt="Nico Robin"></a>
+                        <p class="carousel-label">Nico Robin</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/franky.jpg" alt="Franky"></a>
+                        <p class="carousel-label">Franky</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/jinbei.jpg" alt="Jinbe"></a>
+                        <p class="carousel-label">Jinbe</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/luffy.jpg" alt="Monkey D. Luffy"></a>
+                        <p class="carousel-label">Monkey D. Luffy</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/zoro.jpg" alt="Roronoa Zoro"></a>
+                        <p class="carousel-label">Roronoa Zoro</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/nami.jpg" alt="Nami"></a>
+                        <p class="carousel-label">Nami</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/usopp.jpg" alt="Usopp"></a>
+                        <p class="carousel-label">Usopp</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/sanji.jpg" alt="Sanji"></a>
+                        <p class="carousel-label">Sanji</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/chopper.jpeg" alt="Tony Tony Chopper"></a>
+                        <p class="carousel-label">Tony Tony Chopper</p>
+                    </div>
+                </div>
+                <button class="carousel-btn next" data-carousel="2" type="button">›</button>
+            </div>
+        </div>
+
+        <!-- Carousel 3 -->
+        <h4>Previously Featured</h4>
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <button class="carousel-btn prev" data-carousel="3" type="button">‹</button>
+                <div class="carousel-images" data-carousel="3">
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/zoro.jpg" alt="Roronoa Zoro"></a>
+                        <p class="carousel-label">Roronoa Zoro</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/sanji.jpg" alt="Sanji"></a>
+                        <p class="carousel-label">Sanji</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/nami.jpg" alt="Nami"></a>
+                        <p class="carousel-label">Nami</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/usopp.jpg" alt="Usopp"></a>
+                        <p class="carousel-label">Usopp</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/robin.jpg" alt="Nico Robin"></a>
+                        <p class="carousel-label">Nico Robin</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/franky.jpg" alt="Franky"></a>
+                        <p class="carousel-label">Franky</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/jinbei.jpg" alt="Jinbe"></a>
+                        <p class="carousel-label">Jinbe</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/luffy.jpg" alt="Monkey D. Luffy"></a>
+                        <p class="carousel-label">Monkey D. Luffy</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/chopper.jpeg" alt="Tony Tony Chopper"></a>
+                        <p class="carousel-label">Tony Tony Chopper</p>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="media/zoro.jpg" alt="Roronoa Zoro"></a>
+                        <p class="carousel-label">Roronoa Zoro</p>
+                    </div>
+                </div>
+                <button class="carousel-btn next" data-carousel="3" type="button">›</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured_author">
+        <img src="media/luffy.jpg" class="picture" width="250px">
+        <h2>Featured Author</h2>
+        <p>Monkey D. Luffy, also known as "Straw Hat" Luffy, is a fictional character and the protagonist of the Japanese manga series One Piece created by Eiichiro Oda. Luffy made his debut as a young boy who acquires the properties of rubber after accidentally eating one of the Devil Fruits.</p>
+        <p>Monkey D. Luffy is the captain of the Straw Hat Pirates, and dreamt of being a pirate since childhood from the influence of his idol and mentor Red-Haired Shanks. At the age of 17, Luffy sets sail from the East Blue Sea to the Grand Line in search of the legendary treasure One Piece, to succeed Gol D. Roger as "King of the Pirates". He fights multiple antagonists, and aids and befriends the inhabitants of several islands on his journey. Usually cheerful, he becomes serious and even aggressive when he fights. Luffy uses his rubber body to concentrate his power, executing a range of attacks.</p>
+        <form><button class="button_learnmore" formaction="https://en.wikipedia.org/wiki/Monkey_D._Luffy">Learn More</button></form>
+    </div>
+
+</div>
+
+</head>
+
+<!-- body -->
+
+<body></body>
+
+<!-- footer-->
+
+</html>

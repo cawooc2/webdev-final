@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<!-- doc info -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Librarian's Archive</title>
+<link rel="stylesheet" type="text/css" href="ITWD5.130.css">
+<script src="script.js" defer></script>
+
+<!-- head -->
+<head>
+<div class="cardhead"></div>
+
+<div class="cardbody">
+    
+    <!-- SIDEBAR BUTTONS -->
+    <div class="sidebar">
+        <button class="hamburger" onclick="toggleMenu()">☰ Menu</button>
+        
+        <div class="nav-menu">
+            <form><button class="button button_home" formaction="home.html">Home</button></form>
+            <form><button class="button button_about" formaction="about.html">About</button></form>
+            <button class="button button_contact">Contact Us</button>
+            <form><button class="button button_explore" formaction="explore.html">Explore</button></form>
+            <input type="text" placeholder="Search...">
+        </div>
+        
+        <h2>VOTE</h2>
+        <p>Who should be next month's featured author?</p>
+         <label class="poll"><p>Tony Tony Chopper</p>
+        <input type="radio" checked="checked" name="radio">
+        <span class="checkmark"></span>
+        </label>
+        <label class="poll"><p>Jinbe</p>
+        <input type="radio" name="radio">
+         <span class="checkmark"></span>
+        </label>
+        <label class="poll"><p>Nico Robin</p>
+          <input type="radio" name="radio">
+         <span class="checkmark"></span>
+        </label>
+        <label class="poll"><p>Usopp</p>
+         <input type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <form><button class="button_submit" formaction="">Submit</button></form>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="mainpage">
+        <h1>The Librarian's Archive</h1>
+        <h3>Contact Us</h3>
+        <p>We'd love to hear from you! Whether you're an author looking to share your own work with the world, a reader who's discovered a hidden gem, or simply someone who's passionate about the research we do and amplifying the voices that deserve to be heard, we're here to connect!</p>
+        <p>Whether you have a question about submitting your own work, recommending an author to feature, or simply curious on how you can support us and our mission, we welcome you to reach out! As we are a relatively smaller team, it may take some more time for us to respond to your questions, but we will make an effort to answer all requests within 72 hours.</p>
+        <p>Reach out to us using any of the platforms advertised, or join our discord server to interact with the community!</p>
+        <div class="socialmedia">
+        <div class="instagram"><form><button class="button_instagram" formaction="https://en.wikipedia.org/wiki/Monkey_D._Luffy">Instagram</button></form></div>
+        <div class ="twitter"><form><button class="button_twitterx" formaction="https://en.wikipedia.org/wiki/Monkey_D._Luffy">Twitter / X</button></form></div>
+        <div class="discord"><form><button class="button_discord" formaction="https://en.wikipedia.org/wiki/Monkey_D._Luffy">Discord Server</button></form></div>
+        <div class="youtube"><form><button class="button_youtube" formaction="https://en.wikipedia.org/wiki/Monkey_D._Luffy">Youtube</button></form></div>
+        <div class="email"><form><button class="button_email" formaction="https://en.wikipedia.org/wiki/Monkey_D._Luffy">Email</button></form></div>
+    </div></div>
+
+    <div class="featured_author">
+        <img src="media/luffy.jpg" class="picture" width="250px">
+        <h2>Featured Author</h2>
+        <p>Monkey D. Luffy, also known as "Straw Hat" Luffy, is a fictional character and the protagonist of the Japanese manga series One Piece created by Eiichiro Oda. Luffy made his debut as a young boy who acquires the properties of rubber after accidentally eating one of the Devil Fruits.</p>
+        <p>Monkey D. Luffy is the captain of the Straw Hat Pirates, and dreamt of being a pirate since childhood from the influence of his idol and mentor Red-Haired Shanks. At the age of 17, Luffy sets sail from the East Blue Sea to the Grand Line in search of the legendary treasure One Piece, to succeed Gol D. Roger as "King of the Pirates". He fights multiple antagonists, and aids and befriends the inhabitants of several islands on his journey. Usually cheerful, he becomes serious and even aggressive when he fights. Luffy uses his rubber body to concentrate his power, executing a range of attacks.</p>
+        <form><button class="button_learnmore" formaction="https://en.wikipedia.org/wiki/Monkey_D._Luffy">Learn More</button></form>
+    </div>
+
+</div>
+
+<script>
+function toggleMenu() {
+    const navMenu = document.querySelector('.nav-menu');
+    navMenu.classList.toggle('active');
+}
+</script>
+
+</head>
+
+<!-- footer-->
+</html>

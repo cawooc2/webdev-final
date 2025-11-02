@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<!-- doc info -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Librarian's Archive</title>
+<link rel="stylesheet" type="text/css" href="ITWD5.130.css">
+<script src="script.js" defer></script>
+
+<!-- head -->
+<head>
+<div class="cardhead"></div>
+
+<div class="cardbody">
+    
+    <!-- SIDEBAR BUTTONS -->
+    <div class="sidebar">
+        <button class="hamburger" onclick="toggleMenu()">☰ Menu</button>
+        
+        <div class="nav-menu">
+            <form><button class="button button_home" formaction="home.html">Home</button></form>
+            <button class="button button_about">About</button>
+            <form><button class="button button_contact" formaction="contact-us.html">Contact Us</button></form>
+            <form><button class="button button_explore" formaction="explore.html">Explore</button></form>
+            <input type="text" placeholder="Search...">
+        </div>
+        
+        <h2>VOTE</h2>
+        <p>Who should be next month's featured author?</p>
+         <label class="poll"><p>Tony Tony Chopper</p>
+        <input type="radio" checked="checked" name="radio">
+        <span class="checkmark"></span>
+        </label>
+        <label class="poll"><p>Jinbe</p>
+        <input type="radio" name="radio">
+         <span class="checkmark"></span>
+        </label>
+        <label class="poll"><p>Nico Robin</p>
+          <input type="radio" name="radio">
+         <span class="checkmark"></span>
+        </label>
+        <label class="poll"><p>Usopp</p>
+         <input type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <form><button class="button_submit" formaction="">Submit</button></form>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="mainpage">
+        <h1>The Librarian's Archive</h1>
+        <h3>Our Story</h3>
+        <p>The Librarian's Archive was realized from the premonition that some of the worlds most profound literature is unable to reach the readers who need it the most. Brilliant authors in minority languages actively struggle to find an audience. Political voices keeping essential voices hidden. Economic barriers and publishing legacies determining what can be deemed as "worthy" of international attention.</p>
+        <p>We've seen it all, and firmly believe in giving them the spotlight they deserve.</p>
+        <h3>Our Beliefs</h3>
+        <p><b>Every voice deserves to be heard.</b> Geography, language, and political circumstances should never determine which writers the world recognises.</p>
+        <p><b>Visibility is crucial.</b> By showcasing a censored writer, we help their voice travel beyond the reach of those who silence them. We celebrate authors from under-represented languages, and challenge the narrow scope of global literature.</p>
+        <p><b>Context Illuminates.</b> Understanding who a writer is, where they come from, and what they overcome, transforms how we read and interpret their work. We aren't just introducing you to authors. We tell you why they matter.</p>
+        <h3>What We Do</h3>
+        <p>The Librarian's Archive is a curated showcase of the extraordinary writers who deserve international recognition. We highlight authors whose remarkable work as been previously overlooked due to language barriers, censorship, and limited publishing access.</p>
+        <p>Each author featured on this website has a dedicated profile that explores:</p>
+        <p>
+            •	Their literary style and major works<br>
+            •	The cultural and political context of their writing<br>
+            •	The barriers they've faced and overcome</p>
+        <h3>What We Do</h3>
+        <p>We work with literary experts, translators, and cultural advocates worldwide to discover these hidden talents and present them to readers who crave new perspective.</p>
+        <h3>Our Mission</h3>
+        <p>We don't just preserve literature - we celebrate the living, vital voices that deserve a wider audience than that which is available to them. Connecting remarkable writers with readers who will appreciate and cherish them, and introducing the world to authors it should have known all along.</p>
+        <h3>Join the Discovery</h3>
+        <p>Whether you're seeking fresh perspectives, a literary enthusiast tired of hearing about the same handful of authors, or simply someone who believes great writing can come from anywhere - welcome.</p>
+        <p>The Librarian's Archive: Showcasing the writers the world hasn't met yet.</p>
+    </div>
+
+    <div class="featured_author">
+        <img src="media/luffy.jpg" class="picture" width="250px">
+        <h2>Featured Author</h2>
+        <p>Monkey D. Luffy, also known as "Straw Hat" Luffy, is a fictional character and the protagonist of the Japanese manga series One Piece created by Eiichiro Oda. Luffy made his debut as a young boy who acquires the properties of rubber after accidentally eating one of the Devil Fruits.</p>
+    
+        <p>Monkey D. Luffy is the captain of the Straw Hat Pirates, and dreamt of being a pirate since childhood from the influence of his idol and mentor Red-Haired Shanks. At the age of 17, Luffy sets sail from the East Blue Sea to the Grand Line in search of the legendary treasure One Piece, to succeed Gol D. Roger as "King of the Pirates". He fights multiple antagonists, and aids and befriends the inhabitants of several islands on his journey. Usually cheerful, he becomes serious and even aggressive when he fights. Luffy uses his rubber body to concentrate his power, executing a range of attacks.</p>
+    
+        <form><button class="button_learnmore" formaction="https://en.wikipedia.org/wiki/Monkey_D._Luffy">Learn More</button></form>
+    </div>
+
+</div>
+
+<script>
+function toggleMenu() {
+    const navMenu = document.querySelector('.nav-menu');
+    navMenu.classList.toggle('active');
+}
+</script>
+
+</head>
+<!-- body -->
+<body></body>
+<!-- footer-->
+</html>
